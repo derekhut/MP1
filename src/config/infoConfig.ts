@@ -3,25 +3,25 @@ export * from './education'
 export * from './career'
 
 // personal info
-export const name = 'Derek Hu'
-export const headline = 'Teacher at Shanghai Soong Ching Ling School.'
+export const name = 'Nancy Ge'
+export const headline = 'Grade 11 Student at Shanghai Soong Ching Ling School.'
 export const introduction =
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020."
-export const email = 'tong.hu@scls-sh.org'
-export const githubUsername = 'derekhut'
+  "Hi! I'm Nancy Ge, a Grade 11 student at Shanghai Soong Ching Ling School. I'm passionate about computer science and building things on the web."
+export const email = ''
+export const githubUsername = ''
 
 // about page
-export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
+export const aboutMeHeadline = 'About Me'
 export const aboutParagraphs = [
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020.",
-  'Currently I am working on a new course called AI Camp, an innovative course where high school students create real-world products and startups while exploring the frontiers of AI.',
-  "I started this blog to share the insights I learn every day. Most blogs focus on education in Artificial Intelligence and general computer science, while others share the life lessons I've learned.",
+  "Hi! I'm Nancy Ge, a Grade 11 student at Shanghai Soong Ching Ling School (上海宋庆龄学校).",
+  "I'm interested in computer science, web development, and exploring how technology can solve real-world problems.",
+  'This portfolio showcases my projects, learning journey, and the things I care about.',
 ]
 
 // blog
-export const blogHeadLine = "What I've thinking about."
+export const blogHeadLine = "What I've been thinking about."
 export const blogIntro =
-  "I've written something about AI, programming and life."
+  "Thoughts on programming, school projects, and things I'm learning along the way."
 
 // social links
 export type SocialLinkType = {
@@ -31,18 +31,7 @@ export type SocialLinkType = {
   href: string
 }
 
-export const socialLinks: Array<SocialLinkType> = [
-  {
-    name: 'Tiktok',
-    icon: 'tiktok',
-    href: 'https://www.tiktok.com/@harvard?lang=en',
-  },
-  {
-    name: 'Bilibili',
-    icon: 'bilibili',
-    href: 'https://space.bilibili.com/349721082',
-  },
-]
+export const socialLinks: Array<SocialLinkType> = []
 
 // https://simpleicons.org/
 export const techIcons = [
