@@ -4,9 +4,9 @@ export * from './career'
 
 // personal info
 export const name = 'Derek Hu'
-export const headline = 'Teacher at Shanghai Soong Ching Ling School.'
+export const headline = 'Founder of AI Camp.'
 export const introduction =
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020."
+  'Hi, I’m Derek Hu. I founded AI Camp to help ambitious high school students learn AI and put it into practice. Here, I share what I’m building, teaching, and learning along the way.'
 export const email = 'tong.hu@scls-sh.org'
 export const githubUsername = 'derekhut'
 
